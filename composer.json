@@ -1,5 +1,5 @@
 {
-  "name": "m2broth/HeadersConsumerBundle",
+  "name": "m2broth/headers-consumer-bundle",
   "type": "symfony-bundle",
   "description": "Modify current MultiplyConsumer class from the OldSoundRabbitMqBundle",
   "keywords": ["symfony2", "rabbitmq", "message", "queue", "amqp"],
