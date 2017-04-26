@@ -3,9 +3,16 @@ Modify current MultiplyConsumer class from the OldSoundRabbitMqBundle.
 Add ability to set queues arguments (for headers exchange type) when
 binding queues and running rabbitmq:setup-fabric command.
 
-## Setup
+## Installation ##
 
-Just enable the HeadersConsumerBundle in the AppKernel.php:
+Just enable the HeadersConsumerBundle:
 ```php
-new m2broth\HeadersConsumerBundle\HeadersConsumerBundle();
+// app/AppKernel.php
 
+public function registerBundles()
+{
+    $bundles = array(
+        new m2broth\HeadersConsumerBundle\HeadersConsumerBundle();
+    );
+}
+```
