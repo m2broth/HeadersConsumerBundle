@@ -5,6 +5,11 @@ binding queues and running rabbitmq:setup-fabric command.
 
 ## Installation ##
 
+Require the bundle and its dependencies with composer:
+
+```bash
+$ composer require m2broth/headers-consumer-bundle
+```
 Just enable the HeadersConsumerBundle:
 ```php
 // app/AppKernel.php
