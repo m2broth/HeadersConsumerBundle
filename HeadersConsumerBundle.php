@@ -1,5 +1,5 @@
 <?php
-namespace m2broth\HeadersConsumer;
+namespace m2broth\HeadersConsumerBundle;
 
 use m2broth\HeadersConsumer\DependencyInjection\Compiler\ReplaceMultiplyConsumerCompilerPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

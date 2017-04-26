@@ -1,12 +1,12 @@
 <?php
-namespace Acceptic\HeadersConsumer\RabbitMq;
+namespace m2broth\HeadersConsumerBundle\RabbitMq;
 
 use OldSound\RabbitMqBundle\RabbitMq\MultipleConsumer;
 
 /**
  * Just add ability to setup headers exchanges correctly
  *
- * @package Acceptic\HeadersConsumer\RabbitMq
+ * @package m2broth\HeadersConsumerBundle\RabbitMq
  */
 class HeadersConsumer extends MultipleConsumer
 {

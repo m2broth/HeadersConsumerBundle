@@ -7,5 +7,5 @@ binding queues and running rabbitmq:setup-fabric command.
 
 Just enable HeadersConsumerBundle in the AppKernel.php.
 ```php
-new m2broth\HeadersConsumer\RabbitMq\HeadersConsumerBundle();
+new m2broth\HeadersConsumerBundle\HeadersConsumerBundle();
 

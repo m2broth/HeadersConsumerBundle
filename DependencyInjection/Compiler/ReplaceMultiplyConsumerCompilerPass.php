@@ -1,5 +1,5 @@
 <?php
-namespace m2broth\HeadersConsumer\DependencyInjection\Compiler;
+namespace m2broth\HeadersConsumerBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
